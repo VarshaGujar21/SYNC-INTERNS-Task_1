@@ -1,0 +1,142 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+}
+
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 35px;
+    top:20px;
+}
+
+.left img{
+    width: 100px;
+    filter: invert(100%);
+}
+.left div{
+    text-align:center;
+    color: white;
+}
+
+.mid{
+    display:block;
+    width: 50%;
+    margin: 20px auto ;
+}
+
+.right{
+    position: absolute;
+    right: -60px;
+    top: 50px;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+}   
+
+input{
+    border: 2px solid pink;
+    height: 40px;
+    width: 200px;
+    border-radius: 30px;
+    padding:0px 10px;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+    
+}
+
+.navbar li a{
+    color:white;
+    text-decoration: none;
+    padding: 35px 23px;
+}
+
+.navbar li a:hover, .navbar li a.active{
+    color: yellow;
+    text-decoration: underline;
+    padding: 34px 23px;
+}
+
+.container{
+    margin: 100px 1100px;
+    padding:0px 2px ;
+    width: 33%;
+    border-radius: 2px;
+}
+
+.title{
+    font-size: 4.5em;
+    letter-spacing: 1px;
+    margin: 48px auto;
+    color: white;
+}
+
+.line{
+    font-size: 2.5em;
+    color: white;
+}
+
+.msg {
+    max-width: 80%;
+    font-size: 1.9em;
+    letter-spacing: 0.7px;
+    line-height: 32px;
+    margin-bottom: 48px;
+    color:white;
+}
+
+.end{
+    font-size: 1.5em;
+    color: white;
+}
+
+button.cta {
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: #ff0073;
+    padding: 18px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 7px 12px 20px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+button.cta:hover {
+    background-color:rgb(238, 178, 190);
+}
+
+button span {
+    text-transform: uppercase;
+    font-size: 1.3em;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+button.cta i {
+    font-size: 1.7em;
+    margin-left: 16px;
+}
+
+.btn{
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    display: grid;
+    right: -3rem;
+    top: 0.9rem;
+   
+}
